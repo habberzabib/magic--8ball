@@ -1,0 +1,27 @@
+html {
+  background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2VzL3dlYnNpdGUvMjAyMi0wNS9ybTIwOS1hZGotMDlfMS5qcGc.jpg?s=Wbzmvm1ezEw8E9pWDOed8ZQ4Ji7SrJlPRvqLBLdQbzM)
+    no-repeat center fixed;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  width: 600px;
+  margin: 25px auto;
+  padding: 25px 150px 50px;
+}
+
+img {
+  margin: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 1%;
+}
+
+.green {
+  color: green;
+}
