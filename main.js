@@ -13,10 +13,7 @@ function imgClicked() {
   } else if (question === "spamton?") {
     document.getElementById("answers").innerHTML = `
      <h3>Answer: <span class="text">NOW'S YOUR CHANCE TO BE A [[BIGSHOT]] !!</span></h3>`;
-  } else if (
-    question === "napoleon bonaparte?" ||
-    question === "napoleon bonaparte?"
-  ) {
+  } else if (question === "napoleon bonaparte?" || question === "napoleon?") {
     document.getElementById("answers").innerHTML = `
       <h3>Answer: <span class="text">Il n'y a rien à faire.</span></h3>`;
   } else if (question === "luh calm fit?") {
@@ -31,7 +28,11 @@ function imgClicked() {
   } else if (question === "kurzgesagt?") {
     document.getElementById("answers").innerHTML = `
       <h3>Answer: <span class="text">Based birbs.</span></h3>`;
-  } else if (question === "stupendium?" || question === "the stupendium?" || question === "ajr") {
+  } else if (
+    question === "stupendium?" ||
+    question === "the stupendium?" ||
+    question === "ajr"
+  ) {
     document.getElementById("answers").innerHTML = `
       <h3>Answer: <span class="text">Cultured.</span></h3>`;
   } else if (question === "bo burnham?") {
@@ -46,11 +47,6 @@ function imgClicked() {
   ) {
     document.getElementById("answers").innerHTML = `
       <h3>Answer: <span class="text">If I can prove that I never-</span></h3>`;
-
-    } else if () {
-      document.getElementById("answers").innerHTML = `
-        <h3>Answer: <span class="text">Cultured.</span></h3>`;
-    
   } else if (question === "") {
     document.getElementById("answers").innerHTML = `
       <h3>Answer: <span class="text">Please enter a question and click on the ball to get an answer.</span></h3>`;
