@@ -31,7 +31,7 @@ function imgClicked() {
   } else if (
     question === "stupendium?" ||
     question === "the stupendium?" ||
-    question === "ajr"
+    question === "ajr?"
   ) {
     document.getElementById("answers").innerHTML = `
       <h3>Answer: <span class="text">Cultured.</span></h3>`;
@@ -42,7 +42,7 @@ function imgClicked() {
     question === "hamilton?" ||
     question === "alexander hamilton?" ||
     question === "lafayette?" ||
-    question === "marquis de lafayette" ||
+    question === "marquis de lafayette?" ||
     question === "lin manuel miranda?"
   ) {
     document.getElementById("answers").innerHTML = `
